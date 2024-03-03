@@ -8,7 +8,7 @@
     },
     "content_scripts": [
         {
-          "js": ["scripts/main.js"],
+          "js": ["scripts/removeForceDownload.js"],
           "matches": [
             "https://edu.hse.ru/*"
           ]

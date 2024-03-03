@@ -1,4 +1,4 @@
-export default function removeForceDownload() {
+function removeForceDownload() {
     document.querySelectorAll('.fileuploadsubmission').forEach(
         function (element) {
             linkElement = element.querySelector('a');
@@ -8,3 +8,5 @@ export default function removeForceDownload() {
         }
     )
 }
+
+removeForceDownload()

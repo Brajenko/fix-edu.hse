@@ -10,8 +10,17 @@
         {
           "js": ["scripts/removeForceDownload.js"],
           "matches": [
-            "https://edu.hse.ru/*"
+            "https://edu.hse.ru/mod/assign/*"
+          ]
+        },
+        {
+          "js": ["scripts/autoOpenLink.js"],
+          "matches": [
+            "https://edu.hse.ru/mod/url/*"
           ]
         }
+      ],
+      "permissions": [
+        "tabs"
       ]
   }

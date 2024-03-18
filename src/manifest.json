@@ -18,6 +18,12 @@
           "matches": [
             "https://edu.hse.ru/mod/url/*"
           ]
+        },
+        {
+          "js": ["scripts/readableTitles.js"],
+          "matches": [
+            "https://edu.hse.ru/mod/*"
+          ]
         }
       ],
       "permissions": [
